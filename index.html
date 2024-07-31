@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sai World City</title>
+
+    <!-- SEO -->
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo/favicon.jpg" sizes="16x16" />
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- Fancy Box CDN -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <!-- EmailJS CDN -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/mail.js"></script>
+
+    <!-- Custom CSS & JS  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#main-navbar"
+    data-bs-root-margin="0px 0px -50%"
+    data-bs-smooth-scroll="true"
+    class="scrollspy"
+    tabindex="0"
+    data-offset="1">
+    <!-- Header  -->
+    <header class="fixed-top shadow-sm">
+      <nav
+        class="navbar navbar-expand-lg mx-auto"
+        style="background-color: #ffffff"
+        id="main-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="img/logo/logo.webp"
+              alt="Logo"
+              height="60px"
+              style="padding-left: 10%" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#slider_section">
+                  <i class="fa-solid fa-house nav-icon"></i>
+                  <span class="d-sm-inline"> Home </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#overview_section">
+                  <i class="fa-solid fa-coins nav-icon"></i>
+                  <span class="d-sm-inline"> Overview </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery_section">
+                  <i class="fa-solid fa-images nav-icon"></i>
+                  <span class="d-sm-inline"> Gallery </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#configuration_section">
+                  <i class="fa-solid fa-sliders nav-icon"></i>
+                  <span class="d-sm-inline"> Configuration </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#amenities_section">
+                  <i class="fa-solid fa-wifi nav-icon"></i>
+                  <span class="d-sm-inline"> Amenities </span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#location_section">
+                  <i class="fa-solid fa-map-location nav-icon"></i>
+                  <span class="d-sm-inline"> Location </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_section">
+                  <i class="fa-solid fa-user nav-icon"></i>
+                  <span class="d-sm-inline"> About Us </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Ends  -->
+
+    <main>
+      <!-- Slider Section -->
+      <section id="slider_section ">
+        <!--  Slider -->
+        <div
+          id="carousel-Indicators"
+          class="carousel slide desktop-slider"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100 banner1"
+                width="100%"
+                src="img/banners/banner01.jpg"
+                alt="Banner1" />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 banner2"
+                width="100%"
+                src="img/banners/banner02.jpg"
+                alt="Banner2" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel-Indicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel-Indicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Slider Section Ends -->
+
+      <!--Overview Section  -->
+      <section id="overview_section" class="container p-4 mt-3">
+        <h2 class="section-heading text-center">Sai World City</h2>
+
+        <div class="row mt-4">
+          <div class="col-12 col-md-6 overview_img">
+            <img class="img-fluid" src="img/overview/overview.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6">
+            <p class="overview-para mt-3">
+              Where quality of life is at its peak. Where serene green environs
+              compliment the nature's beauty. Where leisure time becomes the
+              best family time and lifestyle incarnates the cosmopolitan life
+              with famous landmarks of the world surrounding you. An
+              unparalleled living, where the feeling of being alive is awesome,
+              making every moment, a memory of a lifetime. A host of enlivening
+              entertainment from across the world. A paradise of supreme health
+              facilities ensuring the complete well-being. Where fashion &
+              glitterati is around every corner. And standard of living is at
+              par with the world, ensuring best of grandeur, class, security,
+              safety and conveniences. Here is an incredible global offering
+              from India to the world that is accumulating universal lifestyle
+              embellishments at world's newest destination called Sai World City
+              at Panvel. Presenting a living that creates a world within a
+              world, a living that makes you truly global.
+            </p>
+            <button
+              class="btn btn-outline-dark download_btn"
+              data-bs-toggle="modal"
+              data-bs-target="#popupModal">
+              <i class="fa-solid fa-download nav-icon"></i> Download Brochure
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--Overview Section  Ends -->
+
+      <!-- Gallery Section -->
+      <section id="gallery_section" class="container p-4 mt-3">
+        <div>
+          <h2 class="section-heading">GALLERY</h2>
+        </div>
+
+        <div class="section-content">
+          <!-- Gallery -->
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-4">
+              <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+                <img
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  src="img/gallery/gallery01.jpg"
+                  data-src="img/gallery/gallery01.jpg"
+                  alt="" />
+              </div>
+
+              <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+                <img
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  src="img/gallery/gallery02.jpg"
+                  data-src="img/gallery/gallery02.jpg"
+                  alt="" />
+              </div>
+
+              <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+                <img
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  src="img/gallery/gallery03.jpg"
+                  data-src="img/gallery/gallery03.jpg"
+                  alt="" />
+              </div>
+
+              <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+                <img
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  src="img/gallery/gallery04.jpg"
+                  data-src="img/gallery/gallery04.jpg"
+                  alt="" />
+              </div>
+
+              <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+                <img
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  src="img/gallery/gallery05.jpg"
+                  data-src="img/gallery/gallery05.jpg"
+                  alt="" />
+              </div>
+
+              <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+                <img
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  src="img/gallery/gallery06.jpg"
+                  data-src="img/gallery/gallery06.jpg"
+                  alt="" />
+              </div>
+
+              <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+                <img
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  src="img/gallery/gallery07.jpg"
+                  data-src="img/gallery/gallery07.jpg"
+                  alt="" />
+              </div>
+
+              <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+                <img
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  src="img/gallery/gallery08.jpg"
+                  data-src="img/gallery/gallery08.jpg"
+                  alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery Section Ends -->
+
+      <!-- Configuration Section -->
+      <section id="configuration_section" class="container p-4 mt-3">
+        <h2 class="section-heading">Configuration</h2>
+
+        <div class="location_features_section m-3">
+          <div>
+            <!-- Nav Links Confi -->
+            <ul class="nav nav-pills mb-3" id="pills-tabloc" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab active"
+                  id="pills-loc-0"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loc-0"
+                  role="tab"
+                  aria-controls="loc-0"
+                  aria-selected="true">
+                  2 BHK
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab"
+                  id="pills-loc-1"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loc-1"
+                  role="tab"
+                  aria-controls="loc-1"
+                  aria-selected="false">
+                  2.5 BHK
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab"
+                  id="pills-loc-2"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loc-2"
+                  role="tab"
+                  aria-controls="loc-2"
+                  aria-selected="false">
+                  3 BHK
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab"
+                  id="pills-loc-3"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loc-3"
+                  role="tab"
+                  aria-controls="loc-3"
+                  aria-selected="false">
+                  4 BHK
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Features Tab Content -->
+          <div class="tab-content" id="pills-tablocContent">
+            <div
+              class="tab-pane fade show active"
+              id="loc-0"
+              role="tabpanel"
+              aria-labelledby="pills-loc-0"
+              tabindex="0">
+              <!-- 2 BHK  -->
+              <div class="container plans_cont card">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <img
+                      class="img-fluid floor-plan"
+                      src="img/plans/2bhk.webp"
+                      alt="" />
+                  </div>
+                  <div class="col-12 col-md-6 mt-5 floor-plan-details">
+                    <h3>2 BHK Apartments</h3>
+                    <div class="mb-4">
+                      <img
+                        class="total"
+                        src="img/extras/total.svg"
+                        alt=""
+                        height="28px" />
+                      <p><b>Total: </b> 625 -740 Sq.ft</p>
+                      <p>
+                        <b>Price: </b><span class="price">₹ 95 Lakhs*</span>
+                        Onwards
+                      </p>
+                    </div>
+                    <p>
+                      <button
+                        class="btn btn-outline-dark download_btn text-center"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <i class="fa-solid fa-download nav-icon"></i> Download
+                        Brochure
+                      </button>
+                      <br />
+                      <br />
+                      <button
+                        class="btn btn-outline-dark download_btn text-center"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <i class="fa-solid fa-folder-open nav-icon"></i> Open
+                        All Floor Plans
+                      </button>
+                    </p>
+                    <ul class="mt-1">
+                      <li>Phase 1 @ ₹1.18 Cr onwards (All Inc.)</li>
+                      <li>Phase 2 @ ₹1.10 Cr onwards (All Inc.)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="loc-1"
+              role="tabpanel"
+              aria-labelledby="pills-loc-1"
+              tabindex="1">
+              <!-- 2.5 BHK  -->
+              <div class="container plans_cont card">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <img
+                      class="img-fluid floor-plan"
+                      src="img/plans/3bhk.webp"
+                      alt="" />
+                  </div>
+                  <div class="col-12 col-md-6 mt-5 floor-plan-details">
+                    <h3>2.5 BHK Apartments</h3>
+                    <div>
+                      <img
+                        class="total"
+                        src="img/extras/total.svg"
+                        alt=""
+                        height="28px" />
+                      <p><b>Total: </b> 1050 Sq.ft</p>
+                      <p>
+                        <b>Price: </b><span class="price">₹ On Request</span>
+                      </p>
+                    </div>
+                    <p>
+                      <button
+                        class="btn btn-outline-dark download_btn text-center"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <i class="fa-solid fa-download nav-icon"></i> Download
+                        Brochure
+                      </button>
+                      <br />
+                      <br />
+                      <button
+                        class="btn btn-outline-dark download_btn text-center"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <i class="fa-solid fa-folder-open nav-icon"></i> Open
+                        All Floor Plans
+                      </button>
+                    </p>
+                    <ul class="mt-1">
+                      <li>Phase 1 @ ₹1.18 Cr onwards (All Inc.)</li>
+                      <li>Phase 2 @ ₹1.10 Cr onwards (All Inc.)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="loc-2"
+              role="tabpanel"
+              aria-labelledby="pills-loc-2"
+              tabindex="1">
+              <!-- 3 BHK  -->
+              <div class="container plans_cont card">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <img
+                      class="img-fluid floor-plan"
+                      src="img/plans/3bhk.webp"
+                      alt="" />
+                  </div>
+                  <div class="col-12 col-md-6 mt-5 floor-plan-details">
+                    <h3>3 BHK Apartments</h3>
+                    <div>
+                      <img
+                        class="total"
+                        src="img/extras/total.svg"
+                        alt=""
+                        height="28px" />
+                      <p><b>Total: </b> 1212 - 1350 Sq.ft</p>
+                      <p>
+                        <b>Price: </b><span class="price">₹ On Request</span>
+                      </p>
+                    </div>
+                    <p>
+                      <button
+                        class="btn btn-outline-dark download_btn text-center"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <i class="fa-solid fa-download nav-icon"></i> Download
+                        Brochure
+                      </button>
+                      <br />
+                      <br />
+                      <button
+                        class="btn btn-outline-dark download_btn text-center"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <i class="fa-solid fa-folder-open nav-icon"></i> Open
+                        All Floor Plans
+                      </button>
+                    </p>
+                    <ul class="mt-1">
+                      <li>Phase 1 @ ₹1.18 Cr onwards (All Inc.)</li>
+                      <li>Phase 2 @ ₹1.10 Cr onwards (All Inc.)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="loc-3"
+              role="tabpanel"
+              aria-labelledby="pills-loc-3"
+              tabindex="2">
+              <!-- 4 BHK  -->
+              <div class="container plans_cont card">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <img
+                      class="img-fluid floor-plan"
+                      src="img/plans/4bhk.webp"
+                      alt="" />
+                  </div>
+                  <div class="col-12 col-md-6 mt-5 floor-plan-details">
+                    <h3>4 BHK Apartments</h3>
+                    <div>
+                      <img
+                        class="total"
+                        src="img/extras/total.svg"
+                        alt=""
+                        height="28px" />
+                      <p><b>Total: </b> 1636 - 1900 Sq.ft</p>
+                      <p>
+                        <b>Price: </b><span class="price">₹ On Request</span>
+                      </p>
+                    </div>
+                    <p>
+                      <button
+                        class="btn btn-outline-dark download_btn text-center"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <i class="fa-solid fa-download nav-icon"></i> Download
+                        Brochure
+                      </button>
+                      <br />
+                      <br />
+                      <button
+                        class="btn btn-outline-dark download_btn text-center"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <i class="fa-solid fa-folder-open nav-icon"></i> Open
+                        All Floor Plans
+                      </button>
+                    </p>
+                    <ul class="mt-1">
+                      <li>Phase 1 @ ₹1.18 Cr onwards (All Inc.)</li>
+                      <li>Phase 2 @ ₹1.10 Cr onwards (All Inc.)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Configuration Section Ends -->
+
+      <!-- Amenities Section -->
+      <section id="amenities_section" class="container p-4 mt-3">
+        <div>
+          <h2 class="section-heading">Amenities</h2>
+        </div>
+
+        <div class="section-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <div class="thumbnails">
+                  <img
+                    src="img/amenities/external/swimingpoolpartdeck.jpg"
+                    alt="digital portrait of Gemma Arterton as Gretel"
+                    class="img-fluid" />
+                  <div class="black"></div>
+                  <div class="title">swimming pool</div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="thumbnails">
+                  <img
+                    src="img/amenities/external/foodcourtcafe.jpg"
+                    alt=""
+                    class="img-fluid" />
+                  <div class="black"></div>
+                  <div class="title">Food Court</div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="thumbnails">
+                  <img
+                    src="img/amenities/internal/gym.jpg"
+                    alt="digital portrait of woman holding her face with a red background"
+                    class="img-fluid" />
+                  <div class="black"></div>
+                  <div class="title">gymnasium</div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="thumbnails">
+                  <img
+                    src="img/amenities/internal/childrenchrche.jpg"
+                    alt="digital portrait of Gemma Arterton as Gretel"
+                    class="img-fluid" />
+                  <div class="black"></div>
+                  <div class="title">Kid's play area</div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="thumbnails">
+                  <img
+                    src="img/amenities/internal/squashcourt.jpg"
+                    alt="digital portrait of Gemma Arterton as Gretel"
+                    class="img-fluid" />
+                  <div class="black"></div>
+                  <div class="title">squash court</div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="thumbnails">
+                  <img
+                    src="img/amenities/internal/spa.jpg"
+                    alt="digital portrait of Gemma Arterton as Gretel"
+                    class="img-fluid" />
+                  <div class="black"></div>
+                  <div class="title">SPA</div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="thumbnails">
+                  <img
+                    src="img/amenities/internal/library.jpg"
+                    alt="digital portrait of Gemma Arterton as Gretel"
+                    class="img-fluid" />
+                  <div class="black"></div>
+                  <div class="title">library</div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-3">
+                <div class="thumbnails">
+                  <img
+                    src="img/amenities/internal/minithreter.jpg"
+                    alt="digital portrait of Gemma Arterton as Gretel"
+                    class="img-fluid" />
+                  <div class="black"></div>
+                  <div class="title">Mini Theatre</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Location Section -->
+      <section id="location" class="container p-4 shadow-sm">
+        <h2 class="section-heading">Location</h2>
+
+        <!-- Maps  -->
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2">
+            <!-- Map Iframe -->
+            <div class="col-md-12">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120742.35597054644!2d73.04304687734587!3d18.96683348672915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e7b1c4bf9485%3A0xde2ff6b4d8743963!2sSAI%20WORLD%20CITY!5e0!3m2!1sen!2sin!4v1706181749961!5m2!1sen!2sin"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div class="location_features_section m-3">
+          <div>
+            <!-- Nav Links Location -->
+            <ul class="nav nav-pills mb-3" id="pills-tabloc" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab active"
+                  id="pills-loca-0"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loca-0"
+                  role="tab"
+                  aria-controls="loca-0"
+                  aria-selected="true">
+                  CONNECTIVITY
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab"
+                  id="pills-loca-1"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loca-1"
+                  role="tab"
+                  aria-controls="loca-1"
+                  aria-selected="false">
+                  EDUCATIONAL INSTITUTIONS
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab"
+                  id="pills-loca-2"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loca-2"
+                  role="tab"
+                  aria-controls="loca-2"
+                  aria-selected="false">
+                  HOSPITAL
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase ami-tab"
+                  id="pills-loca-3"
+                  data-bs-toggle="pill"
+                  data-bs-target="#loca-3"
+                  role="tab"
+                  aria-controls="loc-3"
+                  aria-selected="false">
+                  RETAIL
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Features Tab Content -->
+          <div class="tab-content" id="pills-tablocContent">
+            <div
+              class="tab-pane fade show active"
+              id="loca-0"
+              role="tabpanel"
+              aria-labelledby="pills-loca-0"
+              tabindex="0">
+              <!-- Connectivity Features -->
+              <div class="container locaton-features">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Navi Mumbai International Airport (NMIA)
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Virar-Alibaug Multimodal Corridor (VAMC)
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Mumbai-Pune Expressway
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Panvel-Karjat Suburban Railway
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Jawaharlal Nehru Port Trust (JNPT)
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    CST- Panvel
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="loca-1"
+              role="tabpanel"
+              aria-labelledby="pills-loca-1"
+              tabindex="1">
+              <!-- Educational Features -->
+              <div class="container locaton-features">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    DAV Public School
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Amity University
+                  </div>
+
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    MGM College of Medical & Engineering
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="loca-2"
+              role="tabpanel"
+              aria-labelledby="pills-loca-2"
+              tabindex="2">
+              <!-- Hospital Features -->
+              <div class="container locaton-features">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    MGM Hospital
+                  </div>
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Lifeline Hospital
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="loca-3"
+              role="tabpanel"
+              aria-labelledby="pills-loca-3"
+              tabindex="3">
+              <!-- Retail Features -->
+              <div class="container locaton-features">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Orion Mall
+                  </div>
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    PVR Cinemas
+                  </div>
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Big Bazaar
+                  </div>
+                  <div class="col my-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    D Mart
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about_section" class="contact_us container-fluid p-4 mt-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1"></div>
+
+            <div class="col-md-10">
+              <div class="contact_inner">
+                <div class="container">
+                  <div class="contact_form_inner">
+                    <div class="contact_field">
+                      <h3 class="Heading">Contact Us</h3>
+                      <p>
+                        Feel Free to contact us any time. We will get back to
+                        you as soon as we can!.
+                      </p>
+                      <!-- Form -->
+                      <div class="enquire-section ps-5 pe-5">
+                        <div class="container">
+                          <form id="contact-form" class="text-center">
+                            <div class="mb-3">
+                              <label for="user_name" class="form-label"
+                                >Name</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control inputStyle shadow-none"
+                                name="user_name"
+                                id="user_name"
+                                placeholder="Name"
+                                autocomplete="off"
+                                required />
+                            </div>
+                            <div class="mb-3">
+                              <label for="user_email" class="form-label"
+                                >Email address</label
+                              >
+                              <input
+                                type="email"
+                                class="form-control inputStyle shadow-none"
+                                name="user_email"
+                                id="user_email"
+                                placeholder="Email Address"
+                                autocomplete="off" />
+                            </div>
+                            <div class="mb-3">
+                              <label for="contact_number" class="form-label"
+                                >Phone Number</label
+                              >
+                              <input
+                                type="tel"
+                                class="form-control inputStyle shadow-none"
+                                id="contact_number"
+                                name="contact_number"
+                                pattern="[0-9]{10}"
+                                placeholder="Phone Number"
+                                oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                                oninput="setCustomValidity('')"
+                                minlength="10"
+                                maxlength="10"
+                                required />
+                            </div>
+
+                            <div
+                              class="d-flex ps-1 pb-2"
+                              style="font-size: 9px; color: #bfbfbf">
+                              <input
+                                type="checkbox"
+                                checked=""
+                                required=""
+                                class="custom-control-input custom-control-input-green"
+                                id="privacy_check"
+                                data-gtm-form-interact-field-id="0" />
+
+                              <label
+                                class="ps-2 pb-2 custom-control-label"
+                                for="privacy_check">
+                                I consent to the use of my provided data in
+                                accordance with the
+                                <a
+                                  href="privacy_policy.html"
+                                  target="_blank"
+                                  style="font: inherit; color: inherit"
+                                  >privacy policy</a
+                                >.</label
+                              >
+                            </div>
+
+                            <button
+                              type="submit"
+                              class="btn btn-primary submit-btn w-100">
+                              Submit
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container pb-3">
+                  <div class="contact_info_sec">
+                    <h4>Contact Info</h4>
+                    <div class="d-flex info_single align-items-center">
+                      <i class="fas fa-headset"></i>
+                      <span>+91 123456789</span>
+                    </div>
+                    <div class="d-flex info_single align-items-center">
+                      <i class="fas fa-envelope-open-text"></i>
+                      <span>info@gmail.com</span>
+                    </div>
+                    <div class="d-flex info_single align-items-center">
+                      <i class="fas fa-map-marked-alt"></i>
+                      <span>
+                        Sai World City, Palaspe Phata, Panvel, Navi Mumbai,
+                        Maharashtra 410206
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container text-center text-white">
+        <div class="d-flex justify-content-center">
+          <div class="qrcode">
+            <!-- <img
+           src="img/qr/The Palace Tower B - P51700033430.png"
+           class="m-2" />
+         <img
+           src="img/qr/The Palace Tower C - P51700033431.png"
+           class="m-2" /> -->
+          </div>
+        </div>
+        <div>
+          <p>MahaRERA Registration No.: ----</p>
+
+          <p>
+            <a
+              href="https://maharera.mahaonline.gov.in"
+              style="color: #fff; text-decoration: none">
+              maharera.mahaonline.gov.in
+            </a>
+          </p>
+
+          <!-- <div class="text-center">
+                <p class="contact_details">
+                    <b> Site Address:-</b> ---
+                    <br />
+                    <b> Contact No:-</b> +91 ---
+                    <br />
+                    <b> Email Address:-</b> support@---.com
+                </p>
+            </div> -->
+
+          <div>
+            <span>
+              Disclaimer : The information provided on this website is intended
+              exclusively for informational purposes and the pricing information
+              presented on this website is subject to alteration without advance
+              notification, and the assurance of property availability cannot be
+              guaranteed. The images showcased on this website are for
+              representational purposes only and may not accurately reflect the
+              actual properties. Please Note That This Is The Official Website
+              Of ------- by -----------.
+            </span>
+            <span id="dots20" style="display: inline"></span>
+            <span id="more20" style="display: none">
+              <span>
+                We May Share Data With Real Estate Regulatory Authority (RERA)
+                Registered Brokers/Companies For Further Processing As Required.
+                We May Also Send Updates And Information To The Mobile Number Or
+                Email ID Registered With Us. All rights reserved. The content,
+                design, and information on this website are protected by
+                copyright and other intellectual property rights. Any
+                unauthorized use or reproduction of the content may violate
+                applicable laws. For accurate and up-to-date information
+                regarding services, pricing, availability, and any other
+                details, it is recommended to contact us directly through the
+                provided contact information on this website. Thank you for
+                visiting our website.
+              </span>
+            </span>
+            <br />
+            <span
+              class="read_more2"
+              onclick="toggleContent('dots20','more20', 'myBtn20')"
+              id="myBtn20">
+              Read More
+            </span>
+          </div>
+
+          <p class="pb-4 pt-2">
+            <a
+              href="privacy_policy.html"
+              target="_blank"
+              style="text-decoration: none">
+              Privacy Policy
+            </a>
+            |
+            <a
+              href="termsandcondition.html"
+              target="_blank"
+              style="text-decoration: none">
+              Terms And Conditions
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile Footer Fixed Button -->
+    <div class="container-fluid fixed-bottom action-footer-container">
+      <ul class="nav nav-fill action-footer">
+        <li class="nav-item ps-1">
+          <a
+            onclick="return gtag_report_conversion('https://wa.me/+91123456789 ');"
+            href="https://wa.me/+91123456789 "
+            class="text-decoration-none text-white">
+            <i class="fa-brands fa-whatsapp nav-icon"> </i> Whatsapp
+          </a>
+        </li>
+        <li class="nav-item ps-1">
+          <a
+            onclick="return gtag_report_conversion('tel:+91123456789 ');"
+            href="tel:+91123456789 "
+            class="text-decoration-none text-white">
+            <i class="fa-solid fa-phone me-2"></i> Call Us
+          </a>
+        </li>
+
+        <li
+          class="nav-item"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          <i class="fa-solid fa-download nav-icon"></i> Brochure
+        </li>
+      </ul>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      aria-labelledby="ModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Title -->
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="ModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="container text-center">
+              <img src="img/logo/logo.webp" alt="" height="80px" />
+              <p class="mt-2">Register Here And Avail The Best Offers!!</p>
+            </div>
+            <div class="container">
+              <!--Enquire Form  -->
+              <div class="enquire-section">
+                <span class="d-block text-center fw-bold my-2">
+                  Get The Best Quote
+                </span>
+                <div class="container">
+                  <!-- Form -->
+                  <form id="contact-form-modal" class="text-center">
+                    <div class="mb-3">
+                      <label for="user_name_modal" class="form-label"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="user_name"
+                        id="user_name_modal"
+                        placeholder="Name *"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="user_email_modal" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control inputStyle shadow-none"
+                        name="user_email"
+                        id="user_email_modal"
+                        placeholder="Email Address"
+                        autocomplete="off" />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="contact_number_modal" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control inputStyle shadow-none"
+                        name="contact_number"
+                        id="contact_number_modal"
+                        minlength="10"
+                        maxlength="10"
+                        pattern="[0-9]{10}"
+                        placeholder="Phone Number *"
+                        oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                        oninput="setCustomValidity('')"
+                        required />
+                    </div>
+
+                    <div
+                      class="d-flex ps-1 pb-2"
+                      style="font-size: 9px; color: #bfbfbf">
+                      <input
+                        type="checkbox"
+                        checked=""
+                        required=""
+                        class="custom-control-input custom-control-input-green"
+                        id="privacy_check_modal"
+                        data-gtm-form-interact-field-id="0" />
+
+                      <label
+                        class="ps-2 pb-2 custom-control-label"
+                        for="privacy_check_modal">
+                        I consent to the use of my provided data in accordance
+                        with the
+                        <a
+                          href="privacy_policy.html"
+                          target="_blank"
+                          style="font: inherit; color: inherit"
+                          >privacy policy</a
+                        >.</label
+                      >
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                      Submit
+                    </button>
+                    <p class="m-2 form_norms">
+                      <span>
+                        Your contact details are safe with us. <br />
+                      </span>
+                      <span> Our team will be in touch with you soon.</span>
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
